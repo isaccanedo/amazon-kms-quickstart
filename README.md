@@ -8,7 +8,7 @@ Basta executá-lo da seguinte maneira para iniciar o KMS localmente:
 `docker run --rm --name local-kms -p 8011:4599 -e SERVICES=kms -e START_WEB=0 -d localstack/localstack:0.11.1`
 KMS listens on `localhost:8011` for REST endpoints.
 
-Create an AWS profile for your local instance using AWS CLI:
+Crie um perfil da AWS para sua instância local usando a AWS CLI:
 
 ```
 $ aws configure --profile localstack
