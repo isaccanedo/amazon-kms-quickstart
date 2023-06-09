@@ -18,7 +18,7 @@ Default region name [None]: us-east-1
 Default output format [None]:
 ```
 
-## Create KMS master key
+## Criar chave mestra do KMS
 
 Create a master key and store the ARN in the `MASTER_KEY_ARN` environment variable
 ```
