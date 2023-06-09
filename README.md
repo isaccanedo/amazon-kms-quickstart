@@ -20,7 +20,7 @@ Default output format [None]:
 
 ## Criar chave mestra do KMS
 
-Create a master key and store the ARN in the `MASTER_KEY_ARN` environment variable
+Crie uma chave mestra e armazene o ARN na variável de ambiente `MASTER_KEY_ARN`
 ```
 $> MASTER_KEY_ARN=`aws kms create-key --profile localstack --endpoint-url=http://localhost:8011 | cut -f3`
 ```
