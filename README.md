@@ -1,6 +1,6 @@
 # Demonstração do Quarkus: Amazon KMS Client
 
-This example showcases how to use the AWS KMS client with Quarkus. As a prerequisite install Install [AWS Command line interface](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html).
+Este exemplo mostra como usar o cliente AWS KMS com o Quarkus. Como pré-requisito, instale a [interface de linha de comando da AWS](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html).
 
 # AWS KMS local instance
 
