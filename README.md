@@ -4,7 +4,7 @@ Este exemplo mostra como usar o cliente AWS KMS com o Quarkus. Como pré-requisi
 
 # Instância local do AWS KMS
 
-Just run it as follows in order to start KMS locally:
+Basta executá-lo da seguinte maneira para iniciar o KMS localmente:
 `docker run --rm --name local-kms -p 8011:4599 -e SERVICES=kms -e START_WEB=0 -d localstack/localstack:0.11.1`
 KMS listens on `localhost:8011` for REST endpoints.
 
