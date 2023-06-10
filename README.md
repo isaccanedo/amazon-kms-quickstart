@@ -29,7 +29,7 @@ Generate key data as 256-bit symmetric key (AES_256)
 $> aws kms generate-data-key --key-id $MASTER_KEY_ARN --key-spec AES_256 --profile localstack --endpoint-url=http://localhost:8011
 ```
 
-# Run the demo on dev mode
+# Execute a demonstração no modo dev
 
 - Run `./mvnw clean package` and then `java -Dkey.arn=$MASTER_KEY_ARN -jar ./target/quarkus-app/quarkus-run.jar`
 - In dev mode `./mvnw clean quarkus:dev -Dkey.arn=$MASTER_KEY_ARN`
