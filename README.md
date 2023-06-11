@@ -34,7 +34,7 @@ $> aws kms generate-data-key --key-id $MASTER_KEY_ARN --key-spec AES_256 --profi
 - Run `./mvnw clean package` and then `java -Dkey.arn=$MASTER_KEY_ARN -jar ./target/quarkus-app/quarkus-run.jar`
 - In dev mode `./mvnw clean quarkus:dev -Dkey.arn=$MASTER_KEY_ARN`
 
-## Encrypt your text
+## Criptografe seu texto
 ```
 curl -XPOST -H"Content-type: text/plain" http://localhost:8080/sync/encrypt -d'Quarkus is awsome'
 ```
