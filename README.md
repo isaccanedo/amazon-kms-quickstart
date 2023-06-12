@@ -38,7 +38,7 @@ $> aws kms generate-data-key --key-id $MASTER_KEY_ARN --key-spec AES_256 --profi
 ```
 curl -XPOST -H"Content-type: text/plain" http://localhost:8080/sync/encrypt -d'Quarkus is awsome'
 ```
-And the result similar to this output:
+E o resultado semelhante a esta saída:
 ```
 S2Fybjphd3M6a21zOnVzLWVhc3QtMTowMDAwMDAwMDAwMDA6a2V5LzZmYzAwOWZhLWYwMDUtNGI4My04ZDc1LTk4OGVhZTk4ZTM1NwAAAAAfC2HyHrHBXLNFomHLdH9PlMKWQKofyhJjbY2TUovEaBuc4Hj+Lb2BSoYTa/c=
 ```
