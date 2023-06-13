@@ -42,7 +42,7 @@ E o resultado semelhante a esta saída:
 ```
 S2Fybjphd3M6a21zOnVzLWVhc3QtMTowMDAwMDAwMDAwMDA6a2V5LzZmYzAwOWZhLWYwMDUtNGI4My04ZDc1LTk4OGVhZTk4ZTM1NwAAAAAfC2HyHrHBXLNFomHLdH9PlMKWQKofyhJjbY2TUovEaBuc4Hj+Lb2BSoYTa/c=
 ```
-## Decrypt your message
+## Descriptografar sua mensagem
 You can now decrypt a message you previously encrypted
 
 ```
