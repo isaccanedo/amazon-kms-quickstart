@@ -58,9 +58,9 @@ And then decrypt
 curl -XPOST -H"Content-type: text/plain" http://localhost:8080/async/decrypt -d '<encrypted-message>'
 ```
 
-# Running in native
+# Executando em nativo
 
-You can compile the application into a native binary using:
+Você pode compilar o aplicativo em um binário nativo usando:
 
 `./mvnw clean install -Pnative`
 
