@@ -24,7 +24,7 @@ Crie uma chave mestra e armazene o ARN na variável de ambiente `MASTER_KEY_ARN`
 ```
 $> MASTER_KEY_ARN=`aws kms create-key --profile localstack --endpoint-url=http://localhost:8011 | cut -f3`
 ```
-Generate key data as 256-bit symmetric key (AES_256)
+Gere dados de chave como chave simétrica de 256 bits (AES_256)
 ```
 $> aws kms generate-data-key --key-id $MASTER_KEY_ARN --key-spec AES_256 --profile localstack --endpoint-url=http://localhost:8011
 ```
