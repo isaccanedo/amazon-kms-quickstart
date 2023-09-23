@@ -49,7 +49,7 @@ Agora você pode descriptografar uma mensagem criptografada anteriormente
 curl -XPOST -H"Content-type: text/plain" http://localhost:8080/sync/decrypt -d '<encrypted-message>'
 ```
 
-Repeat the same using async endpoints. Encrypt
+Repita o mesmo usando endpoints assíncronos. Criptografar
 ```
 curl -XPOST -H"Content-type: text/plain" http://localhost:8080/async/encrypt -d 'Quarkus is awsome'
 ```
