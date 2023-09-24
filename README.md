@@ -53,7 +53,7 @@ Repita o mesmo usando endpoints assíncronos. Criptografar
 ```
 curl -XPOST -H"Content-type: text/plain" http://localhost:8080/async/encrypt -d 'Quarkus is awsome'
 ```
-And then decrypt
+E então descriptografar
 ```
 curl -XPOST -H"Content-type: text/plain" http://localhost:8080/async/decrypt -d '<encrypted-message>'
 ```
