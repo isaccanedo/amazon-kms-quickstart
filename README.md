@@ -69,7 +69,7 @@ and run with:
 `./target/amazon-kms-quickstart-1.0.0-SNAPSHOT-runner -Dkey.arn=$MASTER_KEY_ARN` 
 
 
-# Running native in container
+# Executando nativo em contêiner
 
 Build a native image in container by running:
 `./mvnw package -Pnative -Dnative-image.docker-build=true`
