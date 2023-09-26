@@ -64,7 +64,7 @@ Você pode compilar o aplicativo em um binário nativo usando:
 
 `./mvnw clean install -Pnative`
 
-and run with:
+e execute com:
 
 `./target/amazon-kms-quickstart-1.0.0-SNAPSHOT-runner -Dkey.arn=$MASTER_KEY_ARN` 
 
