@@ -86,7 +86,7 @@ Stop your localstack container you started at the beginning
 Start localstack and connect to the network
 `docker run --rm --network=localstack --name localstack -p 8011:4599 -e SERVICES=kms -e START_WEB=0 -d localstack/localstack:0.11.1`
 
-Create a master key and store the ARN in the `CMK_ARN` environment variable
+Crie uma chave mestra e armazene o ARN na variável de ambiente `CMK_ARN`
 ```
 $> MASTER_KEY_ARN=`aws kms create-key --profile localstack --endpoint-url=http://localhost:8011 | cut -f3`
 ```
