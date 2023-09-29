@@ -83,7 +83,7 @@ Create a network that connect your container with localstack
 Stop your localstack container you started at the beginning
 `docker stop local-kms`
 
-Start localstack and connect to the network
+Inicie o localstack e conecte-se à rede
 `docker run --rm --network=localstack --name localstack -p 8011:4599 -e SERVICES=kms -e START_WEB=0 -d localstack/localstack:0.11.1`
 
 Crie uma chave mestra e armazene o ARN na variável de ambiente `CMK_ARN`
