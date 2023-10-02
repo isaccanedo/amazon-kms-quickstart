@@ -80,7 +80,7 @@ Build a docker image:
 Create a network that connect your container with localstack
 `docker network create localstack`
 
-Stop your localstack container you started at the beginning
+Pare o contêiner localstack que você iniciou no início
 `docker stop local-kms`
 
 Inicie o localstack e conecte-se à rede
