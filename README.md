@@ -77,7 +77,7 @@ Crie uma imagem nativa no contêiner executando:
 Crie uma imagem docker:
 `docker build -f src/main/docker/Dockerfile.native -t quarkus/amazon-kms-quickstart .`
 
-Create a network that connect your container with localstack
+Crie uma rede que conecte seu contêiner ao localstack
 `docker network create localstack`
 
 Pare o contêiner localstack que você iniciou no início
