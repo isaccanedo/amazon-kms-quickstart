@@ -31,7 +31,7 @@ $> aws kms generate-data-key --key-id $MASTER_KEY_ARN --key-spec AES_256 --profi
 
 # Execute a demonstração no modo dev
 
-- Run `./mvnw clean package` and then `java -Dkey.arn=$MASTER_KEY_ARN -jar ./target/quarkus-app/quarkus-run.jar`
+- Execute `./mvnw clean package` and then `java -Dkey.arn=$MASTER_KEY_ARN -jar ./target/quarkus-app/quarkus-run.jar`
 - In dev mode `./mvnw clean quarkus:dev -Dkey.arn=$MASTER_KEY_ARN`
 
 ## Criptografe seu texto
